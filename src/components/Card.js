@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Card = (_id, name, image) => {
+const Card = ({ _id, name, image }) => {
   return <div key={_id}>
     <header><h3>{name}</h3></header>
     <figure>
