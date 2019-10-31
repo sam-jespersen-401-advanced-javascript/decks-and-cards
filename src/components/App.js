@@ -1,5 +1,5 @@
 import React from 'react';
-import DeckOfCards from './containers/DeckOfCards';
+import Characters from './containers/Characters';
 
 export default function App() {
   return (
@@ -8,7 +8,7 @@ export default function App() {
         <header>
           <h2>Characters</h2>
         </header>
-        <DeckOfCards />
+        <Characters count={12} />
       </section>
     </>
   );

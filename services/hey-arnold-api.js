@@ -1,6 +1,7 @@
 
 function getCharacters(num) {
 
+
   const url = `https://hey-arnold-api.herokuapp.com/api/v1/characters/random?count=${num}`;
 
   return fetch(url).then(response => response.json())
