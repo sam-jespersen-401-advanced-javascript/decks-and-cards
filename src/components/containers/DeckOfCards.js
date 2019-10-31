@@ -13,7 +13,6 @@ const cards = characters.map(({ _id, name, image }) => (
   />
 )
 );
-console.log(cards);
 
 
 export default class DeckOfCards extends Component {
