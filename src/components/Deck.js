@@ -4,13 +4,13 @@ import PropTypes from 'prop-types';
 export default function Deck({ children }) {
   return (
     <>
-    {children}
+      {children}
     </>
-  )
+  );
 }
 Deck.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node
-  ]).isRequired
-}
+  ])
+};
